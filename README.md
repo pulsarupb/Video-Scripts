@@ -1,83 +1,33 @@
-# Video-Stuff
+# Video-Stuff 🎬
 
-> Un loc pentru tot ce ține de **video production**: idei, concepte, scenarii, planuri de filmare, resurse, workflow-uri și documentația proiectelor.
+The **DRIFT-PULSAR** team's repository for video ideas, concepts, scripts, and production planning.
 
-Acest repository centralizează procesul de la prima idee până la livrarea finală. Scopul este ca fiecare producție să pornească de la aceleași șabloane, să fie ușor de urmărit și să poată fi reluată sau predată altei persoane fără pierdere de context.
+This is where we keep our templates and working documents, so it's easy to start a new video and track its progress.
 
-## Ce găsești aici
+## Files
 
-- **Pre-production:** brief-uri, concepte, research, scenarii, storyboard-uri și shot lists.
-- **Production:** planuri de filmare, echipament, locații, checklist-uri și note de pe set.
-- **Post-production:** structură de montaj, note de feedback, reguli pentru audio/color și preseturi documentate.
-- **Assets & resources:** grafică, SFX, muzică și referințe *doar când există drepturi de folosire și distribuire*.
-- **Deliverables:** specificații pentru export, thumbnails, subtitrări și linkuri către versiuni aprobate.
-
-## Structura repository-ului
-
-```text
-Video-Stuff/
-├── README.md
-├── templates/
-│   ├── concept-structura-video.md
-│   └── concept-structura-video.docx
-├── projects/
-│   └── YYYY-MM-nume-proiect/
-│       ├── 00-brief/
-│       ├── 01-pre-production/
-│       ├── 02-production/
-│       ├── 03-post-production/
-│       └── 04-delivery/
-└── assets/
-    └── README.md
-```
-
-Directoarele din `projects/YYYY-MM-nume-proiect/` sunt un **exemplu de structură**; se creează separat pentru fiecare proiect. Directoarele goale nu sunt urmărite automat de Git.
-
-## Cum începi un proiect nou
-
-1. Creează `projects/YYYY-MM-nume-proiect/` și subfolderele necesare.
-2. Copiază `templates/concept-structura-video.md` în `01-pre-production/concept.md` sau folosește varianta `.docx`.
-3. Completează brief-ul, publicul, obiectivul, secvențele video și checklist-ul de filmare.
-4. Actualizează documentele pe măsură ce proiectul trece prin filmare, montaj și review.
-5. Păstrează în `04-delivery/` specificațiile, notele de livrare și linkul către fișierele finale.
-
-**Workflow recomandat:** `Idea → Concept → Script → Shot list → Shooting → Rough cut → Review → Final cut → Delivery`.
-
-## Convenții de denumire
-
-Folosim nume clare, fără spații, diacritice sau variante de tip `final_final_2`.
-
-```text
-2026-10-nume-proiect/
-2026-10-22_nume-proiect_shot-list_v01.md
-nume-proiect_script_v02.md
-nume-proiect_youtube_16x9_v03.mp4
-nume-proiect_reels_9x16_v01.mp4
-```
-
-Crește versiunea la modificări relevante (`v01`, `v02`, `v03`). Marchează explicit fișierul aprobat în documentele proiectului, nu doar în numele exportului.
-
-## Ce păstrăm în Git și ce nu
-
-**În Git:** Markdown, documentație, liste de cadre, scenarii, setări text, grafică ușoară și fișiere de proiect suficient de mici pentru versionare.
-
-**În storage extern:** footage RAW, proxies, cache, renderuri intermediare, exporturi video mari și biblioteci audio voluminoase. În repo păstrăm calea sau linkul către acestea, plus cine are acces.
-
-Dacă un asset binar trebuie urmărit în Git, folosește [Git LFS](https://git-lfs.com/) și verifică limitele de stocare ale proiectului. **Nu încărca parole, date personale, material confidențial sau conținut fără drepturi de distribuire.**
-
-## Review și colaborare
-
-- Deschide un *Issue* pentru propuneri, taskuri sau probleme identificate.
-- Folosește *Pull Requests* pentru modificări de șabloane, ghiduri și resurse comune.
-- În feedback, indică **versiunea**, **timecode-ul**, **problema** și **modificarea propusă**.
-- Înainte de livrare, verifică imaginea, sunetul, subtitrările, brandingul și formatul pentru platforma țintă.
-
-## Templates
-
-| Fișier | Pentru ce este |
+| File | Description |
 | --- | --- |
-| [`templates/concept-structura-video.md`](templates/concept-structura-video.md) | Șablon ușor de editat direct în GitHub: structură pe secvențe, replici, cadre și checklist. |
-| [`templates/concept-structura-video.docx`](templates/concept-structura-video.docx) | Aceeași structură într-un document Word formatat pentru lucru și distribuire. |
+| [TEMPLATE_Concept_Structura_Video.docx](TEMPLATE_Concept_Structura_Video.docx) | Word template for planning a video's concept and structure. |
+| [TEMPLATE_Concept_Structura_Video.md](TEMPLATE_Concept_Structura_Video.md) | Markdown version, editable directly on GitHub. |
+| [DRAFT_PULSAR_Berbec.docx](DRAFT_PULSAR_Berbec.docx) | Working draft for the PULSAR Berbec video. |
+| `README.md` | This guide. |
 
+## Starting a new video
 
----
+1. Choose the **DOCX** or **Markdown** template, whichever works best for you.
+2. Make a copy and rename it for your project (for example, `DRAFT_Project_Name.docx`).
+3. Fill in the idea, objective, video structure, required shots, and editing notes.
+4. Update the document as the project progresses. Feel free to remove sections you don't need.
+
+## Suggested workflow
+
+**Idea → Concept → Script → Filming → Editing → Feedback → Final Video**
+
+The templates are **starting points, not strict rules**. Adapt them to each video's needs.
+
+## Keeping things organized
+
+- Use clear filenames and version numbers for important revisions (`v01`, `v02`, etc.).
+- Keep mainly documents in this repository. Store large RAW footage and video exports in the team's shared storage.
+- When giving feedback, include the **video version**, **timecode**, and **requested change** whenever possible.
