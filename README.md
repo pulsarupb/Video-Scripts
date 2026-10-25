@@ -9,7 +9,6 @@ This is where we keep our templates and working documents, so it's easy to start
 | File | Description |
 | --- | --- |
 | [TEMPLATE_Concept_Structura_Video.docx](TEMPLATE_Concept_Structura_Video.docx) | Word template for planning a video's concept and structure. |
-| [TEMPLATE_Concept_Structura_Video.md](TEMPLATE_Concept_Structura_Video.md) | Markdown version, editable directly on GitHub. |
 | [DRAFT_PULSAR_Berbec.docx](DRAFT_PULSAR_Berbec.docx) | Working draft for the PULSAR Berbec video. |
 | `README.md` | This guide. |
 
